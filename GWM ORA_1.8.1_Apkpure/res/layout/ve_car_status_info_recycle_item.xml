@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gdc.vehicleui.widget.VehicleTitleDescView android:id="@id/label_info" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:ve_describe_text_color="@color/color_999999" app:ve_describe_text_size="@dimen/dimen_common_text_size_18" app:ve_show_describe="true" app:ve_title_bold="true" app:ve_title_text="@string/ve_vehicle_style" app:ve_title_text_color="@color/color_333333" app:ve_title_text_size="@dimen/dimen_common_text_size_18" style="@style/ve_common_item_style" />
+</androidx.constraintlayout.widget.ConstraintLayout>

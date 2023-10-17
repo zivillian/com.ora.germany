@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ve_bg_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_title_text_color_dark" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ve_map_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:layout_marginStart="@dimen/dimen_common_24" android:layout_marginEnd="@dimen/dimen_common_24" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_refresh_car_status_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ve_map_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_common_8" android:layout_marginBottom="@dimen/dimen_common_16" android:lines="1" android:layout_marginStart="@dimen/dimen_common_24" android:layout_marginEnd="@dimen/dimen_common_24" />
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/ve_divider_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dimen_common_24" />
+</LinearLayout>

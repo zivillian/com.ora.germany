@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/dimen_common_15" android:paddingBottom="@dimen/dimen_common_15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/color_007AFF" android:gravity="center" android:id="@id/ve_add_share_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_common_5" android:text="@string/ve_add" android:drawableLeft="@mipmap/ve_icon_vehicle_sharing_add" android:drawablePadding="@dimen/dimen_common_10" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_12" android:textColor="@color/color_FF808088" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_kh_left" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_12" android:textColor="#ff131415" android:id="@id/ve_vehicle_share_list_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_12" android:textColor="@color/color_FF808088" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_kh_right" />
+</LinearLayout>

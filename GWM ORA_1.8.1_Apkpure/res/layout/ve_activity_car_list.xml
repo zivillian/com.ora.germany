@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/ve_activity_car_list_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_status" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:background="#fff9f9f9" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/fr_bind" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srlEnableFooterFollowWhenLoadFinished="true" app:srlEnableLoadMoreWhenContentNotFull="false" app:srlEnableScrollContentWhenLoaded="true">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+        <FrameLayout android:id="@id/fr_bind" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <androidx.appcompat.widget.AppCompatButton android:textColor="@color/white" android:id="@id/bind_new_car" android:tag="binding_1" android:layout_marginLeft="@dimen/dimen_common_20" android:layout_marginTop="@dimen/dimen_common_12" android:layout_marginRight="@dimen/dimen_common_20" android:layout_marginBottom="@dimen/dimen_common_12" android:text="@string/ve_bind_vehicle" style="@style/ve_button" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

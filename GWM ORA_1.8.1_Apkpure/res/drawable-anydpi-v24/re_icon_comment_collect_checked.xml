@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="44.0dip" android:width="44.0dip" android:viewportWidth="44.0" android:viewportHeight="44.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$re_icon_comment_collect_checked__0" android:pathData="M12,8L32,8C34.2091,8 36,9.7909 36,12L36,33.1242C36,34.7811 34.6569,36.1242 33,36.1242C32.5239,36.1242 32.0547,36.0109 31.6311,35.7937L22,30.8547L22,30.8547L12.3689,35.7937C10.8947,36.5498 9.0866,35.9675 8.3305,34.4932C8.1133,34.0696 8,33.6003 8,33.1242L8,12C8,9.7909 9.7909,8 12,8Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M17,18.5192L27.3846,18.5192" android:strokeColor="#ffffffff" android:strokeWidth="2.5" android:strokeLineCap="round" android:fillType="evenOdd" />
+</vector>

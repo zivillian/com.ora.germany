@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.beans.widget.image.RoundImageView android:layout_gravity="top" android:id="@id/re_banner_image" android:background="@drawable/re_image_place_holder_18" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/color_FFFFFFFF" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/re_banner_title" android:background="@color/color_33000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_52" android:maxLines="1" android:paddingStart="@dimen/dimen_common_20" android:paddingEnd="@dimen/dimen_common_20" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

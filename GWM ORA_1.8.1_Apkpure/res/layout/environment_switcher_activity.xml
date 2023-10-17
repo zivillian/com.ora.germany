@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ff4b99fc" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/bt_back" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/switch_environment" android:drawableLeft="@drawable/environment_switcher_ic_arrow" android:drawablePadding="15.0dip" android:drawableStart="@drawable/environment_switcher_ic_arrow" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" />
+    </LinearLayout>
+    <ListView android:id="@id/list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+</LinearLayout>

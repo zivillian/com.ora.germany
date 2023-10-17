@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_exception_icon" android:layout_width="@dimen/dimen_common_20" android:layout_height="@dimen/dimen_common_20" android:src="@mipmap/ve_alarm_system_warning_icon" android:layout_marginStart="@dimen/dimen_common_15" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/ve_color_FF3131" android:id="@id/tv_exception_text" android:background="@drawable/ve_shape_sol00000000_str1ff3131_cor6" android:paddingLeft="@dimen/dimen_common_45" android:paddingTop="@dimen/dimen_common_16" android:paddingRight="@dimen/dimen_common_16" android:paddingBottom="@dimen/dimen_common_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

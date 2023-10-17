@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/ve_default_car_tag_bg" />
+    <stroke android:width="0.5dip" android:color="@color/ve_e_fence_input_editor_color" />
+    <corners android:topRightRadius="@dimen/dimen_common_12" android:bottomRightRadius="@dimen/dimen_common_12" />
+</shape>

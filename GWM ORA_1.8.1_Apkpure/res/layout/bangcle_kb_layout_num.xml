@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffb8b8b8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bangcle_kb_id_group_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bangcle_kb_id_group_2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bangcle_kb_id_group_3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bangcle_kb_id_group_4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button style="@style/bangcle_kb_style_key_skin1.s1" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin1.s0" />
+        <ImageButton android:id="@id/bangcle_kb_id_key_delete" android:tag="control" android:src="@drawable/bangcle_kb_img_key_del_normal" android:scaleType="center" style="@style/bangcle_kb_style_key_skin1.s1" />
+    </LinearLayout>
+</LinearLayout>

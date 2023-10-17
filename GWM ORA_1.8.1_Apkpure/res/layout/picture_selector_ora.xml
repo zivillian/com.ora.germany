@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@color/picture_color_F9F9F9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_title" android:background="@drawable/picture_bg_ora_common_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_status_bar" android:layout_width="fill_parent" android:layout_height="20.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <include android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintTop_toBottomOf="@id/layout_status_bar" layout="@layout/picture_title_bar_ora" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/picture_bottom_bar_ora" />
+    <com.luck.picture.lib.widget.RecyclerPreloadView android:id="@id/picture_recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_above="@id/select_bar_layout" android:layout_below="@id/layout_title" android:overScrollMode="never" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/picture_color_aab2bd" android:gravity="center" android:id="@id/tv_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/picture_empty" android:layout_centerInParent="true" android:lineSpacingExtra="3.0dip" />
+</RelativeLayout>

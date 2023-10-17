@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/ve_activity_security_manage_0" android:background="@color/color_F9F9F9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.beans.widget.FreeCardLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:fcl_shadowRadius="15.0dip" app:fcl_yOffset="10.0dip" style="@style/free_card_layout">
+        <com.gdc.vehicleui.widget.VehicleTitleDescView android:id="@id/set_security_pin" android:tag="binding_1" android:background="@color/transparent" app:ve_show_arrow="true" app:ve_show_bottom_line="false" app:ve_title_text="@string/baee_security_pin_set" app:ve_title_text_color="@color/color_2F2F2F" app:ve_title_text_size="@dimen/dimen_common_text_size_16" style="@style/ve_common_item_style" />
+        <com.gdc.vehicleui.widget.VehicleTitleDescView android:id="@id/set_security_valid_time" android:tag="binding_2" android:background="@color/transparent" app:ve_show_arrow="true" app:ve_show_bottom_line="false" app:ve_show_describe="true" app:ve_title_text="@string/ve_security_password_verify_title" app:ve_title_text_color="@color/color_2F2F2F" app:ve_title_text_size="@dimen/dimen_common_text_size_16" style="@style/ve_common_item_style" />
+    </com.beans.widget.FreeCardLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="50.0dip" />
+            <solid android:color="#9913b0b9" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/picture_bg_ora_little_btn" />
+    </item>
+</layer-list>

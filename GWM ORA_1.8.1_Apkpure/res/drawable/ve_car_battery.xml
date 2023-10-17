@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/secondaryProgress" android:height="19.0dip" android:width="50.0dip" android:left="@dimen/dimen_4dp" android:right="4.5dip" android:bottom="@dimen/dimen_common_1dp">
+        <scale android:scaleWidth="100%">
+            <shape android:layout_width="fill_parent" android:shape="rectangle">
+                <corners android:bottomRightRadius="3.0dip" />
+                <solid android:color="@color/ve_color_ff6412" />
+            </shape>
+        </scale>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress" android:height="19.0dip" android:width="50.0dip" android:left="@dimen/dimen_4dp" android:right="4.5dip" android:bottom="@dimen/dimen_common_1dp">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <size android:height="42.0dip" />
+                <solid android:color="@color/ve_color_f51616" />
+            </shape>
+        </scale>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background" android:height="20.5dip" android:width="49.0dip" android:drawable="@drawable/ve_electricity_icon" />
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/ac_activity_my_orders_0" android:background="@color/ac_color_f9f9f9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.beans.widget.FreeCardLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:fcl_blurRadiusBottom="16.0dip" app:fcl_shadowRadius="15.0dip" style="@style/free_card_layout">
+                <com.beans.widget.GeneralLabel android:id="@id/gl_vehicle_reservations" android:tag="binding_1" app:ivImageSrc="@drawable/base_more_info" app:labelText="@string/ac_vehicle_reservations" app:labelTextColor="@color/color_2F2F2F" app:labelTextSize="@dimen/dimen_common_text_size_16" style="@style/ac_setting_general_label" />
+                <com.beans.widget.GeneralLabel android:id="@id/gl_merchandise_orders" android:tag="binding_2" app:ivImageSrc="@drawable/base_more_info" app:labelText="@string/ac_merchandise_orders" app:labelTextColor="@color/color_2F2F2F" app:labelTextSize="@dimen/dimen_common_text_size_16" style="@style/ac_setting_general_label" />
+            </com.beans.widget.FreeCardLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/re_item_add_pic_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_add_image" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_0dp" app:bl_corners_radius="@dimen/dimen_common_10" app:bl_solid_color="@color/color_219AE3C0" app:layout_constraintDimensionRatio="h,1:1" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iv_add_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/re_icon_ora_add_pic" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

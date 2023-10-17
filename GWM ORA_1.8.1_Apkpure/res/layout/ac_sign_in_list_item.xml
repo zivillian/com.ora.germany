@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_root" android:padding="@dimen/dimen_common_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_common_5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_10" android:textColor="@color/color_2F2F2F" android:id="@id/txt_sign_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_sign_in" android:layout_width="@dimen/dimen_common_22" android:layout_height="@dimen/dimen_common_22" android:layout_marginTop="@dimen/dimen_common_12" android:layout_marginBottom="@dimen/dimen_common_12" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_9" android:textColor="@color/color_8A8A8A" android:id="@id/txt_sign_points" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/picture_color_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_title" android:background="@drawable/picture_bg_ora_common_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_status_bar" android:layout_width="fill_parent" android:layout_height="20.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintTop_toBottomOf="@id/layout_status_bar">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/left_back" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/picture_icon_ora_back" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/picture_color_094447" android:ellipsize="end" android:gravity="center" android:id="@id/picture_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/picture_camera_roll" android:maxEms="11" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ib_delete" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/picture_icon_ora_delete" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.luck.picture.lib.widget.PreviewViewPager android:id="@id/preview_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_title" />
+</RelativeLayout>

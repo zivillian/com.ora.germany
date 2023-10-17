@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="200.0dip" android:width="200.0dip" />
+            <solid android:color="@color/color_F6F6F6" />
+        </shape>
+    </item>
+    <item android:left="57.0dip" android:top="77.0dip" android:right="57.0dip" android:bottom="77.0dip">
+        <bitmap android:gravity="center" android:src="@drawable/base_img_logo_wey" android:antialias="true" />
+    </item>
+</layer-list>

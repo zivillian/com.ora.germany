@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/base_common_list_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableFooterFollowWhenLoadFinished="true" app:srlEnableLoadMoreWhenContentNotFull="false" app:srlEnableScrollContentWhenLoaded="true" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/floatbtn" android:visibility="invisible" android:layout_width="@dimen/dimen_common_40" android:layout_height="@dimen/dimen_common_40" android:layout_marginBottom="@dimen/dimen_common_26" android:src="@drawable/base_ic_arrow_back_top" android:layout_marginEnd="@dimen/dimen_common_20" app:backgroundTint="@color/white" app:borderWidth="@dimen/dimen_common_0dp" app:elevation="@dimen/dimen_common_3" app:fabCustomSize="@dimen/dimen_common_40" app:layout_behavior="com.beans.widget.behavior.FatScrollAwareFABBehavior" app:maxImageSize="@dimen/dimen_common_16" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/ve_charging_map_service_fee_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/ve_color_666666" android:id="@id/tv_service_fee_tag" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_common_14" android:layout_marginStart="@dimen/dimen_common_24" android:layout_marginEnd="@dimen/dimen_common_15" app:layout_constraintEnd_toStartOf="@id/tv_service_fee" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/ve_color_666666" android:id="@id/tv_service_fee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen_common_24" app:layout_constraintBottom_toBottomOf="@id/tv_service_fee_tag" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_service_fee_tag" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/ve_charging_time_picker_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_small_size" android:textColor="#ffc7c7cf" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_least_minute_between_start_end" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/picker_time" android:layout_width="fill_parent" android:layout_height="260.0dip" android:layout_marginStart="@dimen/dimen_common_20" android:layout_marginEnd="@dimen/dimen_common_20" app:layout_constraintTop_toBottomOf="@id/tv_tip">
+        <com.contrarywind.view.WheelView android:id="@id/wheel_hour" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:wheelview_dividerColor="#ffe2e1e1" app:wheelview_lineSpacingMultiplier="3.0" app:wheelview_textColorCenter="@color/color_333333" app:wheelview_textColorOut="@color/color_999999" />
+        <com.contrarywind.view.WheelView android:id="@id/wheel_minute" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:wheelview_dividerColor="#ffe2e1e1" app:wheelview_lineSpacingMultiplier="3.0" app:wheelview_textColorCenter="@color/color_333333" app:wheelview_textColorOut="@color/color_999999" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

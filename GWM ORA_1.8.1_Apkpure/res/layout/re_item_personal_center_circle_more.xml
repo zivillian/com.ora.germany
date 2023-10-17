@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/re_item_personal_center_circle_more_0" android:layout_width="76.5dip" android:layout_height="115.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_more" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@mipmap/re_icon_operate_more" app:layout_constraintBottom_toTopOf="@id/tv_more" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_12" android:textColor="@color/color_FF808088" android:ellipsize="end" android:id="@id/tv_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/re_personal_circle_more" android:maxLines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_more" />
+</androidx.constraintlayout.widget.ConstraintLayout>

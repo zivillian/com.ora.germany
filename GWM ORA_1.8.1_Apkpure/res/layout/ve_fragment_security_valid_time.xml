@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/ve_fragment_security_valid_time_0" android:background="@drawable/ve_bg_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/title_bar" layout="@layout/ve_include_dialog_title" />
+    <View android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:overScrollMode="never" />
+</LinearLayout>

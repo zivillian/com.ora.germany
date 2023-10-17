@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="#ff17181c" android:gravity="center_vertical" android:id="@id/month" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_40" android:layout_marginTop="@dimen/dimen_common_12" android:layout_marginBottom="@dimen/dimen_common_12" android:paddingStart="@dimen/dimen_common_20" android:layout_marginVertical="@dimen/dimen_common_12" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_common_20" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:tag="layout/ve_remote_control_item_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_bg" android:background="@drawable/ve_selector_temperature_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_icon" android:tag="binding_1" android:layout_width="@dimen/dimen_common_36" android:layout_height="@dimen/dimen_common_36" android:src="@drawable/ve_selector_temperature_aqs" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_loading" android:tag="binding_2" android:layout_width="@dimen/dimen_common_36" android:layout_height="@dimen/dimen_common_36" android:src="@mipmap/ve_wey_control_loading" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_FFFFFFFF" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_common_9" android:singleLine="true" />
+</FrameLayout>

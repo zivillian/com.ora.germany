@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffccd1d7" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bangcle_kb_id_group_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bangcle_kb_id_group_2" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bangcle_kb_id_group_3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageButton android:id="@id/bangcle_kb_id_key_switch_shift" android:tag="control" android:layout_marginRight="10.0dip" android:src="@drawable/bangcle_kb_draw_key_shift" android:layout_weight="1.2" style="@style/bangcle_kb_style_key_skin0.s3" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:tag="input" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <ImageButton android:id="@id/bangcle_kb_id_key_delete" android:tag="control" android:layout_marginLeft="10.0dip" android:src="@drawable/bangcle_kb_img_key_del_normal" android:layout_weight="1.2" style="@style/bangcle_kb_style_key_skin0.s1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bangcle_kb_id_group_4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:id="@id/bangcle_kb_id_key_switch_kb_sign" android:tag="control" android:text=".?123" style="@style/bangcle_kb_style_key_skin0.s1" />
+        <Button android:textSize="18.0dip" android:tag="input" android:layout_weight="2.0" style="@style/bangcle_kb_style_key_skin0.s0" />
+        <Button android:textSize="18.0dip" android:id="@id/bangcle_kb_id_key_ok" android:tag="control" android:text="OK" style="@style/bangcle_kb_style_key_skin0.s2" />
+    </LinearLayout>
+</LinearLayout>

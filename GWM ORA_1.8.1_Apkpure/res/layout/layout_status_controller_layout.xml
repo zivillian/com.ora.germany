@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/view_stub_loading" android:inflatedId="@id/layout_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_network_error" android:inflatedId="@id/layout_network_error" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_load_error" android:inflatedId="@id/layout_load_error" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_empty" android:inflatedId="@id/layout_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_not_found" android:inflatedId="@id/layout_not_found" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/view_stub_network_error_widget" android:inflatedId="@id/layout_network_error_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/view_stub_hint" android:inflatedId="@id/layout_not_found" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/view_stub_bottom_floor" android:inflatedId="@id/layout_bottom_floor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/view_stub_float" android:inflatedId="@id/layout_float" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

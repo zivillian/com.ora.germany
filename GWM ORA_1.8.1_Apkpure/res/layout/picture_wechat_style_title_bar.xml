@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/titleViewBg" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rlAlbum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="?picture.title.textColor" android:ellipsize="end" android:gravity="center" android:id="@id/picture_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/picture_camera_roll" android:maxLines="1" android:maxEms="8" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ivArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="?picture.arrow_down.icon" android:scaleType="centerInside" android:layout_toRightOf="@id/picture_title" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="?picture.right.textColor" android:gravity="center" android:id="@id/picture_right" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/picture_cancel" android:layout_alignParentRight="true" />
+    <TextView android:textSize="16.0sp" android:textColor="?picture.right.textColor" android:gravity="center" android:id="@id/picture_send" android:background="@drawable/picture_send_button_default_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/pictureLeftBack" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?picture.leftBack.icon" android:layout_alignTop="@id/titleViewBg" android:layout_alignBottom="@id/titleViewBg" />
+</merge>

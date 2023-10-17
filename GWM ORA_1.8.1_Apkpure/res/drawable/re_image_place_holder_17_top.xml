@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="72.0dip" android:width="72.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_F9F9F9" />
+            <corners android:topLeftRadius="@dimen/dimen_common_17" android:topRightRadius="@dimen/dimen_common_17" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/dimen_common_5" android:width="@dimen/dimen_common_30" android:drawable="@drawable/re_icon_ora_logo_gray" />
+</layer-list>

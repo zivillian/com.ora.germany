@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="64.0dip" android:width="375.0dip" android:viewportWidth="750.0" android:viewportHeight="128.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M0,0h750v128h-750z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff9ae3c0" android:pathData="M0,0h750v128h-750z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.3320545" android:fillAlpha="0.3320545" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M0,0h750v128h-750z" />
+        <path android:fillColor="@drawable/$re_ic_toolbar_bg__0" android:pathData="M140,209l503.559,-112l232.441,112z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.48300317" android:fillAlpha="0.48300317" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h750v128h-750z" />
+        <path android:fillColor="@drawable/$re_ic_toolbar_bg__1" android:pathData="M376,6l-398,120.841l59.086,-60.421z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.195452" android:fillAlpha="0.195452" android:fillType="evenOdd" />
+    </group>
+</vector>

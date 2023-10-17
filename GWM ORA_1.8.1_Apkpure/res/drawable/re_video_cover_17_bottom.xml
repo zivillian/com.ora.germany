@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/dimen_common_18" android:bottomRightRadius="@dimen/dimen_common_18" />
+            <solid android:color="@color/picture_color_20" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/dimen_common_60" android:width="@dimen/dimen_common_60" android:drawable="@drawable/re_icon_play" />
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_root" android:tag="layout/msg_activity_message_center_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_bottom_container" android:tag="binding_1" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableFooterFollowWhenLoadFinished="true" app:srlEnableLoadMoreWhenContentNotFull="false" app:srlEnableScrollContentWhenLoaded="true">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_msg_type" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+        <include android:id="@id/layout_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_common_20" android:layout_marginRight="@dimen/dimen_common_20" android:layout_marginBottom="@dimen/dimen_common_60" android:layout_alignParentBottom="true" android:layout_marginHorizontal="@dimen/dimen_common_20" layout="@layout/msg_layout_open_notification" />
+    </RelativeLayout>
+</LinearLayout>

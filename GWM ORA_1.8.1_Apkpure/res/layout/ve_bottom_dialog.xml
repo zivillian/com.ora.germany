@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/ve_bottom_dialog_0" android:background="@drawable/ve_bg_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="188.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_title_text_color_dark" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="58.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_title_text_color_dark" android:gravity="center" android:id="@id/pos_tv" android:layout_width="fill_parent" android:layout_height="58.0dip" />
+    <View android:background="@color/ve_fragment_bg" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_color_8A8A80" android:gravity="center" android:id="@id/nav_tv" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/base_fragment_x5_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/pg_wv_x5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progressDrawable="@drawable/base_webview_pg" style="?android:progressBarStyleHorizontal" />
+    <View android:id="@id/v_wv_x5" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <com.beans.base.ui.web.dsbridge.DWebView android:id="@id/wv_x5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

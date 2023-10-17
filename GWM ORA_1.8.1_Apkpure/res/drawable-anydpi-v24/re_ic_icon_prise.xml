@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="22.0dip" android:width="22.0dip" android:viewportWidth="44.0" android:viewportHeight="44.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff000000" android:pathData="M5,5h34v34h-34z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.0" android:fillAlpha="0.0" android:fillType="nonZero" />
+    <path android:fillColor="@drawable/$re_ic_icon_prise__0" android:pathData="M21.5,36.2875C20.8813,36.2875 20.2625,35.875 20.2625,35.6688C19.6437,35.2562 9.125,25.7375 7.6813,24.2938C6.0313,22.4375 5,20.1688 5,17.9C5,15.6313 6.0313,13.1563 7.6813,11.5063C9.3313,9.8562 11.6,8.825 14.075,8.825C16.55,8.825 18.8188,9.8562 20.4688,11.5063C20.8813,11.9187 21.2938,12.3313 21.5,12.7437C21.7062,12.3313 22.1187,11.9187 22.5313,11.5063C24.1812,9.8562 26.45,8.825 28.925,8.825C31.4,8.825 33.6688,9.8562 35.3187,11.5063C36.9688,13.1563 38,15.425 38,17.9C38,20.375 36.9688,22.6437 35.3187,24.2938C33.875,25.7375 23.3563,35.2562 22.7375,35.6688C22.7375,35.875 22.1187,36.2875 21.5,36.2875Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

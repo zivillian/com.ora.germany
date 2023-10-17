@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constraint_head" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constraint_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <com.beans.base.ui.widget.DefaultTopTitleBar android:id="@id/constraint_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ctb_back="@color/transparent" app:ctb_img_left="@drawable/base_ic_back_black" app:ctb_img_left_color="@color/title_bar_img_left_color" app:ctb_show_img_left="true" app:ctb_show_line="@bool/title_bar_line_visible" app:ctb_show_line_shadow="@bool/title_bar_line_shadow_visible" app:layout_constraintTop_toBottomOf="@id/constraint_status_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

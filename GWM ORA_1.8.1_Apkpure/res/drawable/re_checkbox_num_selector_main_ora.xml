@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:drawable="@drawable/re_icon_pic_not_select_ora" />
+    <item android:state_selected="true" android:drawable="@drawable/re_num_oval_blue_main_ora" />
+</selector>

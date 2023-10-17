@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/item_recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/cancel_divide" android:background="@color/color_F5F5F5" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_18" android:textColor="@color/color_gray_656567" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/base_cancel" />
+</LinearLayout>

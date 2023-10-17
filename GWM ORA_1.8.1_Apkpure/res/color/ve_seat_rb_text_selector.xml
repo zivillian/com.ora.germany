@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:color="@color/ve_title_text_color_dark" />
+    <item android:color="@color/ve_refresh_car_status_text_color" />
+</selector>

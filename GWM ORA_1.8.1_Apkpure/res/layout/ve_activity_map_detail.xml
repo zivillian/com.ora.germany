@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/ve_activity_map_detail_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gdc.map_core.widget.MapLayout android:id="@id/mapLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gdc.vehicleui.widget.VeLocationInfoLayout android:layout_gravity="bottom" android:id="@id/location_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen_common_280" app:ve_location_btn_bottom="@string/ve_go_navigation" app:ve_location_btn_top="@string/ve_look_around" />
+</FrameLayout>

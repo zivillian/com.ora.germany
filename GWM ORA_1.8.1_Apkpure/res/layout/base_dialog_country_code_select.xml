@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/base_dialog_country_code_select_0" android:background="@drawable/base_bg_bottom_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0sp" android:textColor="#ff848484" android:gravity="center" android:id="@id/bt_cancel" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/base_cancel" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff1c1f2a" android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/base_country_code" android:maxLines="2" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_main" android:gravity="center" android:id="@id/bt_ok" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/base_sure" />
+    </LinearLayout>
+    <View android:id="@id/v_line" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintTop_toBottomOf="@id/ll_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_constraintTop_toBottomOf="@id/v_line" />
+</androidx.constraintlayout.widget.ConstraintLayout>

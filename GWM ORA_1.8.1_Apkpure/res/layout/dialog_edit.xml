@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/dimen_common_15" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dimen_common_15" android:paddingEnd="@dimen/dimen_common_15"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/et_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textCursorDrawable="@drawable/base_text_cursor_shape" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:id="@id/btn_sure" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/base_sure" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/et_address" />
+</androidx.constraintlayout.widget.ConstraintLayout>

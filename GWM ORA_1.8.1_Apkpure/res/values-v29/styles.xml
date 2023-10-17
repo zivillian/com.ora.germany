@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/main_bg_color_gray</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColorHighlight">@color/color_main_light</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlActivated">@color/color_main</item>
+        <item name="colorControlNormal">@color/color_main_dark</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="fontFamily">@font/th_font</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/ve_fragment_map_nav_0" android:background="@drawable/ve_bg_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/map_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <View android:background="@color/ve_fragment_bg" android:layout_width="fill_parent" android:layout_height="@dimen/margin_8" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_title_text_color_dark" android:gravity="center" android:id="@id/map_cancel" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_64" android:text="@string/base_cancel" />
+</LinearLayout>

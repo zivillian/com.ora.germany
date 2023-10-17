@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/titleViewBg" android:background="?picture.ac_preview.title.bg" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="?picture.ac_preview.title.textColor" android:ellipsize="end" android:gravity="center" android:id="@id/picture_title" android:layout_width="fill_parent" android:layout_height="48.0dip" android:maxEms="11" />
+    <ImageView android:id="@id/pictureLeftBack" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?picture.preview.leftBack.icon" android:layout_alignTop="@id/titleViewBg" android:layout_alignBottom="@id/titleViewBg" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/picture_color_white" android:gravity="center" android:id="@id/check" android:background="?picture.checked.style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignTop="@id/titleViewBg" android:layout_alignParentRight="true" />
+    <View android:id="@id/btnCheck" android:background="@color/picture_color_transparent" android:layout_width="45.0dip" android:layout_height="48.0dip" android:layout_alignParentRight="true" />
+</merge>

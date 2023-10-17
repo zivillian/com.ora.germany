@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/base_bg_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.beans.base.widget.BoldTextView android:textSize="@dimen/dimen_common_text_size_18" android:textColor="@color/BLACK_FF333335" android:gravity="center" android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/base_open_with_third_app_tip_title" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_14" android:textColor="@color/color_ff686868" android:gravity="center" android:id="@id/msg_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/base_open_with_third_app_tip" />
+    <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="24.0dip" />
+    <Button android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/color_258fff" android:ellipsize="end" android:gravity="center" android:id="@id/btn" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/base_sure" android:maxLines="1" android:layout_weight="1.0" android:textAllCaps="false" />
+</LinearLayout>

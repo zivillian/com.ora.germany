@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_list_ll" android:tag="layout/base_common_list_activity_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.beans.base.ui.widget.DefaultTopTitleBar android:id="@id/activity_list_base_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ctb_show_line="@bool/title_bar_line_visible" app:ctb_show_line_shadow="@bool/title_bar_line_shadow_visible" />
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableFooterFollowWhenLoadFinished="true" app:srlEnableLoadMoreWhenContentNotFull="false" app:srlEnableScrollContentWhenLoaded="false" app:srlEnableScrollContentWhenRefreshed="false">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</LinearLayout>

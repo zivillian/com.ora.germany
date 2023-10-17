@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_title_text_color_dark" android:id="@id/startTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_common_16" android:layout_marginStart="@dimen/dimen_common_24" />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/switchWidget" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="26.0dip" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_common_16" android:layout_alignParentEnd="true" style="@style/VeCheckBoxStyle" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_tips_text_color" android:id="@id/label_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8" android:layout_below="@id/startTime" android:lineSpacingExtra="@dimen/dimen_8dp" android:layout_marginEnd="@dimen/margin_8" android:layout_toStartOf="@id/switchWidget" android:layout_alignStart="@id/startTime" />
+    <View android:id="@id/deliver" android:background="@color/ve_divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/dimen_common_12" android:layout_below="@id/label_tv" />
+</RelativeLayout>

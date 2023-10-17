@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="100.0dip" android:width="240.0dip" android:viewportWidth="480.0" android:viewportHeight="266.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ve_ic_control_newbie_guide_bg__0" android:pathData="M17.5,1.5L462.5,1.5A16,16 0,0 1,478.5 17.5L478.5,248.5A16,16 0,0 1,462.5 264.5L17.5,264.5A16,16 0,0 1,1.5 248.5L1.5,17.5A16,16 0,0 1,17.5 1.5z" android:strokeColor="#ffffffff" android:strokeWidth="3.0" android:fillType="evenOdd" />
+</vector>

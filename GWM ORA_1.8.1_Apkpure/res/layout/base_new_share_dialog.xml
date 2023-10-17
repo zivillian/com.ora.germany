@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/base_new_share_dialog_0" android:background="@drawable/base_bg_bottom_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_52">
+        <TextView android:textSize="@dimen/dimen_common_text_size_18" android:textColor="@color/color_FF16181A" android:id="@id/tv_share_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_share_txt" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/tvCancel" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="@dimen/dimen_22" android:layout_height="wrap_content" android:src="@drawable/base_ic_share_close" android:contentDescription="@null" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+        <View android:id="@id/share_line" android:background="@color/line_item_decoration" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/share_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.5dip" android:overScrollMode="never" />
+</LinearLayout>

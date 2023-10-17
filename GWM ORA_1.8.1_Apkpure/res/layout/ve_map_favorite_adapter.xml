@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.beans.widget.SwipeMenuView android:background="@drawable/ve_bg_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_favorite_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_title_text_color_dark" android:ellipsize="end" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_common_16" android:maxLines="2" android:layout_marginStart="@dimen/dimen_common_24" android:layout_marginEnd="@dimen/dimen_common_24" />
+        <TextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/ve_refresh_car_status_text_color" android:ellipsize="end" android:id="@id/tvAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_common_8" android:layout_marginBottom="@dimen/dimen_common_16" android:maxLines="1" android:layout_marginStart="@dimen/dimen_common_24" android:layout_marginEnd="@dimen/dimen_common_24" />
+        <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/ve_divider_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dimen_common_24" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/ve_text_normal_size" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_favorite_delete" android:background="@color/ve_car_status_error_text_color" android:layout_width="@dimen/dimen_common_90" android:layout_height="fill_parent" android:text="@string/base_delete" />
+</com.beans.widget.SwipeMenuView>

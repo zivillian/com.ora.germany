@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_common_12" android:paddingEnd="@dimen/dimen_common_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_icon" android:layout_width="@dimen/dimen_common_18" android:layout_height="@dimen/dimen_common_18" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/ac_color_1c1f2a" android:gravity="center_vertical" android:id="@id/tv_label" android:padding="@dimen/dimen_common_12" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_14" android:gravity="center" android:id="@id/tv_state" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/base_bg_shape_favorite" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/color_FF1C202B" android:gravity="center" android:id="@id/dialog_content" android:paddingLeft="@dimen/dimen_common_20" android:paddingTop="@dimen/dimen_common_28" android:paddingRight="@dimen/dimen_common_20" android:paddingBottom="@dimen/dimen_common_28" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ac_current_country_switch" android:lineHeight="@dimen/dimen_common_24" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_16" android:background="@color/GREY_FFEEEEEE" android:layout_width="fill_parent" android:layout_height="0.5dip" android:lineHeight="@dimen/dimen_common_24" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_18" android:textColor="@color/color_FF13B0B9" android:gravity="center" android:id="@id/btn_agree" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_44" android:text="@string/ac_alert_switch" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_16" android:background="@color/GREY_FFEEEEEE" android:layout_width="fill_parent" android:layout_height="0.5dip" android:lineHeight="@dimen/dimen_common_24" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_18" android:textColor="@color/color_FF808088" android:gravity="center" android:id="@id/btn_disagree" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_44" android:text="@string/ac_alert_cancel" />
+</LinearLayout>

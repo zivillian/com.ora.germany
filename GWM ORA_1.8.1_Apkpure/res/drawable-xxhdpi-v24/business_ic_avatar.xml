@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="214.0dip" android:width="214.0dip" android:viewportWidth="214.0" android:viewportHeight="214.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M107,107m-105,0a105,105 0,1 1,210 0a105,105 0,1 1,-210 0" android:strokeColor="#ffffffff" android:strokeWidth="4.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff9ae3c0" android:pathData="M107,107m-105,0a105,105 0,1 1,210 0a105,105 0,1 1,-210 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <group>
+        <path android:fillColor="#ffffffff" android:pathData="M107,82m-37,0a37,37 0,1 1,74 0a37,37 0,1 1,-74 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M107,107m-105,0a105,105 0,1 1,210 0a105,105 0,1 1,-210 0" />
+        <path android:fillColor="#ffffffff" android:pathData="M107,137C135.974,137 162.284,148.174 181.68,166.503C163.365,187.058 136.694,200 107,200C77.306,200 50.634,187.057 32.319,166.506C51.716,148.174 78.026,137 107,137Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    </group>
+</vector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/basics_dialog_bg_picker" android:layout_width="fill_parent" android:layout_height="350.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_common_20" android:layout_marginTop="@dimen/dimen_common_20" android:layout_marginRight="@dimen/dimen_common_20" android:layout_marginHorizontal="@dimen/dimen_common_20">
+        <TextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="#ff686868" android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_cancel" />
+        <TextView android:textSize="19.0sp" android:textColor="#ff1c202b" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="@dimen/dimen_common_0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="#ff13b0b9" android:id="@id/btn_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_sure" />
+    </LinearLayout>
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/timepicker" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="200.0dip" android:layout_weight="1.0">
+        <com.contrarywind.view.WheelView android:id="@id/year" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@id/month" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.1" />
+        <com.contrarywind.view.WheelView android:id="@id/day" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.1" />
+        <com.contrarywind.view.WheelView android:id="@id/hour" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.1" />
+        <com.contrarywind.view.WheelView android:id="@id/min" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.1" />
+        <com.contrarywind.view.WheelView android:id="@id/second" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,332 @@
+[
+  {
+    "src": "base_country_austria.webp",
+    "text": "Austria",
+    "code": "+43"
+  },
+  {
+    "src": "base_country_belgium.webp",
+    "text": "Belgium",
+    "code": "+32"
+  },
+  {
+    "src": "base_country_bulgaria.webp",
+    "text": "Bulgaria",
+    "code": "+359"
+  },
+  {
+    "src": "base_country_croatia.webp",
+    "text": "Croatia",
+    "code": "+385"
+  },
+  {
+    "src": "base_country_cyprus.webp",
+    "text": "Cyprus",
+    "code": "+357"
+  },
+  {
+    "src": "base_country_czech_republic.webp",
+    "text": "Czech Republic",
+    "code": "+420"
+  },
+  {
+    "src": "base_country_denmark.webp",
+    "text": "Denmark",
+    "code": "+45"
+  },
+  {
+    "src": "base_country_estonia.webp",
+    "text": "Estonia",
+    "code": "+372"
+  },
+  {
+    "src": "base_country_finland.webp",
+    "text": "Finland",
+    "code": "+358"
+  },
+  {
+    "src": "base_country_france.webp",
+    "text": "France",
+    "code": "+33"
+  },
+  {
+    "src": "base_country_germany.webp",
+    "text": "Germany",
+    "code": "+49"
+  },
+  {
+    "src": "base_country_greece.webp",
+    "text": "Greece",
+    "code": "+30"
+  },
+  {
+    "src": "base_country_hungary.webp",
+    "text": "Hungary",
+    "code": "+36"
+  },
+  {
+    "src": "base_country_iceland.webp",
+    "text": "Iceland",
+    "code": "+354"
+  },
+  {
+    "src": "base_country_ireland.webp",
+    "text": "Ireland",
+    "code": "+353"
+  },
+  {
+    "src": "base_country_italy.webp",
+    "text": "Italy",
+    "code": "+39"
+  },
+  {
+    "src": "base_country_latvia.webp",
+    "text": "Latvia",
+    "code": "+371"
+  },
+  {
+    "src": "base_country_liechtenstein.webp",
+    "text": "Liechtenstein",
+    "code": "+423"
+  },
+  {
+    "src": "base_country_lithuania.webp",
+    "text": "Lithuania",
+    "code": "+370"
+  },
+  {
+    "src": "base_country_luxembourg.webp",
+    "text": "Luxembourg",
+    "code": "+352"
+  },
+  {
+    "src": "base_country_malta.webp",
+    "text": "Malta",
+    "code": "+356"
+  },
+  {
+    "src": "base_country_netherlands.webp",
+    "text": "Netherlands",
+    "code": "+31"
+  },
+  {
+    "src": "base_country_norway.webp",
+    "text": "Norway",
+    "code": "+47"
+  },
+  {
+    "src": "base_country_poland.webp",
+    "text": "Poland",
+    "code": "+48"
+  },
+  {
+    "src": "base_country_portugal.webp",
+    "text": "Portugal",
+    "code": "+351"
+  },
+  {
+    "src": "base_country_romania.webp",
+    "text": "Romania",
+    "code": "+40"
+  },
+  {
+    "src": "base_country_slovakia.webp",
+    "text": "Slovakia",
+    "code": "+421"
+  },
+  {
+    "src": "base_country_slovenia.webp",
+    "text": "Slovenia",
+    "code": "+386"
+  },
+  {
+    "src": "base_country_spain.webp",
+    "text": "Spain",
+    "code": "+34"
+  },
+  {
+    "src": "base_country_sweden.webp",
+    "text": "Sweden",
+    "code": "+46"
+  },
+  {
+    "src": "base_country_abkhazia.webp",
+    "text": "Abkhazia",
+    "code": "+995 44"
+  },
+  {
+    "src": "base_country_abkhazia.webp",
+    "text": "Abkhazia",
+    "code": "+7 840"
+  },
+  {
+    "src": "base_country_abkhazia.webp",
+    "text": "Abkhazia",
+    "code": "+7 940"
+  },
+  {
+    "src": "base_country_albania.webp",
+    "text": "Albania",
+    "code": "+355"
+  },
+  {
+    "src": "base_country_andorra.webp",
+    "text": "Andorra",
+    "code": "+376"
+  },
+  {
+    "src": "base_country_armenia.webp",
+    "text": "Armenia",
+    "code": "+374"
+  },
+  {
+    "src": "base_country_belarus.webp",
+    "text": "Belarus",
+    "code": "+375"
+  },
+  {
+    "src": "base_country_bosnia.webp",
+    "text": "Bosnia andHerzegovina",
+    "code": "+387"
+  },
+  {
+    "src": "base_country_faroe_islands.webp",
+    "text": "Faroe Islands",
+    "code": "+298"
+  },
+  {
+    "src": "base_country_georgia.webp",
+    "text": "Georgia",
+    "code": "+995"
+  },
+  {
+    "src": "base_country_gibraltar.webp",
+    "text": "Gibraltar",
+    "code": "+350"
+  },
+  {
+    "src": "base_country_kosovo.webp",
+    "text": "Kosovo",
+    "code": "+383"
+  },
+  {
+    "src": "base_country_north_macedonia.webp",
+    "text": "North Macedonia",
+    "code": "+389"
+  },
+  {
+    "src": "base_country_moldova.webp",
+    "text": "Moldova",
+    "code": "+373"
+  },
+  {
+    "src": "base_country_monaco.webp",
+    "text": "Monaco",
+    "code": "+377"
+  },
+  {
+    "src": "base_country_montenegro.webp",
+    "text": "Montenegro",
+    "code": "+382"
+  },
+  {
+    "src": "base_country_nagorno_karabakh.webp",
+    "text": "Nagorno Karabakh",
+    "code": "+374 47"
+  },
+  {
+    "src": "base_country_nagorno_karabakh.webp",
+    "text": "Nagorno Karabakh",
+    "code": "+374 97"
+  },
+  {
+    "src": "base_country_russia.webp",
+    "text": "Russia",
+    "code": "+7"
+  },
+  {
+    "src": "base_country_san_marino.webp",
+    "text": "San Marino",
+    "code": "+378"
+  },
+  {
+    "src": "base_country_serbia.webp",
+    "text": "Serbia",
+    "code": "+381"
+  },
+  {
+    "src": "base_country_south_ossetia.webp",
+    "text": "South Ossetia",
+    "code": "+995 34"
+  },
+  {
+    "src": "base_country_south_ossetia.webp",
+    "text": "South Ossetia",
+    "code": "+7 99534"
+  },
+  {
+    "src": "base_country_south_ossetia.webp",
+    "text": "South Ossetia",
+    "code": "+7 997"
+  },
+  {
+    "src": "base_country_south_ossetia.webp",
+    "text": "South Ossetia",
+    "code": "+7 929"
+  },
+  {
+    "src": "base_country_switzerland.webp",
+    "text": "Switzerland",
+    "code": "+41"
+  },
+  {
+    "src": "base_country_transnistria.webp",
+    "text": "Transnistria",
+    "code": "+373 5"
+  },
+  {
+    "src": "base_country_transnistria.webp",
+    "text": "Transnistria",
+    "code": "+373 2"
+  },
+  {
+    "src": "base_country_turkey.webp",
+    "text": "Turkey",
+    "code": "+90"
+  },
+  {
+    "src": "base_country_northern_cyprus.webp",
+    "text": "Northern Cyprus",
+    "code": "+90 392"
+  },
+  {
+    "src": "base_country_northern_cyprus.webp",
+    "text": "Northern Cyprus",
+    "code": "+90 533"
+  },
+  {
+    "src": "base_country_northern_cyprus.webp",
+    "text": "Northern Cyprus",
+    "code": "+90 542"
+  },
+  {
+    "src": "base_country_united_kingdom.webp",
+    "text": "United Kingdom",
+    "code": "+44"
+  },
+  {
+    "src": "base_country_ukraine.webp",
+    "text": "Ukraine",
+    "code": "+380"
+  },
+  {
+    "src": "base_country_vatican_city.webp",
+    "text": "Vatican City",
+    "code": "+379"
+  },
+  {
+    "src": "base_country_israel.webp",
+    "text": "Israel",
+    "code": "+972"
+  }
+]

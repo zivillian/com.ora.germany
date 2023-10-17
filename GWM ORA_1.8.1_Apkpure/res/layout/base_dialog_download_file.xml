@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/text_main_title" android:gravity="center" android:id="@id/tv_download" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_44" android:layout_marginTop="@dimen/dimen_common_3" android:text="下载文档" />
+    <include layout="@layout/base_divider" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/text_main_title" android:gravity="center" android:id="@id/tv_open" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_50" android:text="其它应用打开" />
+    <View android:background="@color/color_F6F6F6" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_4" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/color_common_text" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_50" android:layout_marginTop="@dimen/dimen_common_3" android:text="@string/base_cancel" />
+</LinearLayout>

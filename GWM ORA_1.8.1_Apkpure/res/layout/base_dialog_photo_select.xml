@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/base_bg_card_white" android:layout_width="fill_parent" android:layout_height="114.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#ff007aff" android:gravity="center" android:id="@id/tv_take" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="拍照" android:layout_weight="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:background="@color/line_item_decoration" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff007aff" android:gravity="center" android:id="@id/tv_album" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="从手机相册选择" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.beans.base.widget.BoldTextView android:textSize="20.0sp" android:textColor="#ff007aff" android:gravity="center" android:id="@id/tv_dismiss" android:background="@drawable/base_bg_card_white" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="12.0dip" android:text="@string/base_cancel" />
+</LinearLayout>

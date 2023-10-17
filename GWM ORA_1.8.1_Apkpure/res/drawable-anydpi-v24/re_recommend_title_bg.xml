@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="360.0dip" android:width="750.0dip" android:autoMirrored="true" android:viewportWidth="750.0" android:viewportHeight="360.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M0,0h750v360h-750z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff9ae3c0" android:pathData="M0,0h750v360h-750z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.3320545" android:fillAlpha="0.3320545" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M-12.099,61.999l745.891,-78.396l37.63,358.028l-745.891,78.396z" />
+        <path android:fillColor="@drawable/$re_recommend_title_bg__0" android:pathData="M300.221,220.866l387.383,-129.623l192.324,68.693z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M-4.664,11.547l748.173,-52.317l25.112,359.123l-748.173,52.317z" />
+        <path android:fillColor="@drawable/$re_recommend_title_bg__1" android:pathData="M338.94,8.198l-351.88,128.698l49.692,-55.521z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.195452" android:fillAlpha="0.195452" android:fillType="evenOdd" />
+    </group>
+</vector>

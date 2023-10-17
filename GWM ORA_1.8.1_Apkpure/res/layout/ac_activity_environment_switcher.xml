@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/ac_activity_environment_switcher_0" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffb32428" android:background="#ffffffff" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="【注意】：内测包切换生产环境不能测爱车（如已开启PKI），不能测三分登录、分享、推送等与第三方关联业务，不影响其余业务功能测试，与第三方关联业务需要下载生产包测试，见：Google play内测包下载链接：https://play.google.com/apps/internaltest/4700885243307452808，或蒲公英链接：https://www.pgyer.com/gwm_android_ora。" />
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@id/list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/title_bar" android:tag="layout/ve_include_dialog_title_0" android:background="@drawable/ve_bg_white" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_50"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/more_iv" android:tag="binding_1" android:layout_width="@dimen/dimen_common_48" android:layout_height="@dimen/dimen_common_48" android:scaleType="centerInside" android:layout_marginEnd="@dimen/dimen_common_14" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ve_title_text_size" android:textColor="@color/color_2F2F2F" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="60.0dip" android:paddingEnd="60.0dip" />
+</FrameLayout>

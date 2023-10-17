@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/ve_charging_history_item_adapter_0" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_50"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#ff2f2f2f" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_common_24" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="#ff808088" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen_common_24" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#ffe02020" android:id="@id/tv_time_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_time_add_one" app:layout_constraintBottom_toTopOf="@id/tv_time" app:layout_constraintStart_toEndOf="@id/tv_time" app:layout_constraintTop_toTopOf="@id/tv_time" />
+</androidx.constraintlayout.widget.ConstraintLayout>

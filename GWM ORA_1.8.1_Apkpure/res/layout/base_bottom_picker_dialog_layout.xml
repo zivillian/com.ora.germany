@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/color_ff686868" android:id="@id/txt_cancel" android:padding="@dimen/dimen_common_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_cancel" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/dimen_common_text_size_16" android:textColor="@color/color_main" android:id="@id/txt_sure" android:padding="@dimen/dimen_common_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_sure" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/view_line" android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="@id/txt_cancel" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen_common_20" android:layout_marginEnd="@dimen/dimen_common_20" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_line">
+        <com.contrarywind.view.WheelView android:id="@id/wheel_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

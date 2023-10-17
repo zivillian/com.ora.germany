@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_scan_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.camera.view.PreviewView android:id="@id/previewView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.king.zxing.ViewfinderView android:id="@id/viewfinderView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cornerColor="@color/color_main" app:frameColor="@color/color_main" app:framePaddingBottom="@dimen/dimen_common_80" app:labelText="@string/base_scan_tips" app:labelTextLocation="bottom" app:labelTextSize="@dimen/dimen_common_14" app:laserColor="@color/color_main" app:laserStyle="line" app:scannerLineHeight="@dimen/dimen_common_3" app:scannerLineMoveDistance="@dimen/dimen_common_3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
