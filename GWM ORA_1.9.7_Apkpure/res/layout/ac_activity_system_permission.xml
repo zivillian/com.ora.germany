@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_root_container" android:tag="layout/ac_activity_system_permission_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dimen_common_text_size_12" android:textColor="@color/ac_color_094447" android:id="@id/tv_permission_tips" android:background="#1aff6412" android:paddingTop="@dimen/dimen_common_12" android:paddingBottom="@dimen/dimen_common_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ac_permission_desc" android:paddingStart="@dimen/dimen_common_20" android:paddingEnd="@dimen/dimen_common_20" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ry_permission" android:paddingBottom="@dimen/dimen_common_20" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

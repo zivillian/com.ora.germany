@@ -1,0 +1,1 @@
+{"$concat": [{"$ref": "omv.objects.json#"}, {"tilezen_train_station_landuse_polygons_japan": {"factory": "tilezen.train_station_area_japan"}}, {"tilezen_train_station_landuse_polygons_outlines_japan": {"factory": "tilezen.train_station_area_outline_japan"}}]}

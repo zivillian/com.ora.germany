@@ -1,0 +1,1 @@
+{"definitions": {"Is.CityDistrict.Block": ["all", ["==", ["get", "kind"], "microhood"], ["==", ["get", "kind_detail"], "block"]], "Is.CityDistrict.Parcel": ["all", ["==", ["get", "kind"], "microhood"], ["==", ["get", "kind_detail"], "parcel"]], "Is.CityDistrict.Oaza": ["all", ["==", ["get", "kind"], "oaza"]], "Is.CityDistrict.Aza": ["all", ["==", ["get", "kind"], "aza"]]}}

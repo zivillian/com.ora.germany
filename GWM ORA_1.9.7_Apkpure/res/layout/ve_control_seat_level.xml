@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/container" android:tag="layout/ve_control_seat_level_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ve_shape_solwhite_cor2" android:layout_width="290.0dip" android:layout_height="40.0dip">
+        <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/seek_bar" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="40.0dip" android:maxHeight="10.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/ve_control_seat_heat_level" android:minHeight="10.0dip" android:thumb="@mipmap/ve_seek_bar_thumb" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="2.0dip" android:splitTrack="false" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#ff292f45" android:gravity="right" android:id="@id/tv_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="28.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#ff909295" android:id="@id/tv_level_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="28.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

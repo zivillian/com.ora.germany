@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="base_day_later">
+        <item quantity="other">In %1$d Tage</item>
+        <item quantity="one">In %1$d Tag</item>
+    </plurals>
+    <plurals name="base_hour">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">%1$d hour</item>
+    </plurals>
+    <plurals name="base_hour_ago">
+        <item quantity="other">Vor %1$d Stunden</item>
+        <item quantity="one">Vor %1$d Stunde</item>
+    </plurals>
+    <plurals name="base_hour_later">
+        <item quantity="other">In %1$d Stunden</item>
+        <item quantity="one">In %1$d Stunde</item>
+    </plurals>
+    <plurals name="base_minute_ago">
+        <item quantity="other">Vor %1$d Minuten</item>
+        <item quantity="one">Vor %1$d Minute</item>
+    </plurals>
+    <plurals name="base_minute_later">
+        <item quantity="other">In %1$d Minuten</item>
+        <item quantity="one">In %1$d Minute</item>
+    </plurals>
+    <plurals name="base_second_ago">
+        <item quantity="other">Vor %1$d Sekunden</item>
+        <item quantity="one">Vor %1$d Sekunde</item>
+    </plurals>
+    <plurals name="base_second_ago2">
+        <item quantity="other">vor %1$d Sekunden</item>
+        <item quantity="one">vor %1$d Sekunde</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
+    </plurals>
+</resources>

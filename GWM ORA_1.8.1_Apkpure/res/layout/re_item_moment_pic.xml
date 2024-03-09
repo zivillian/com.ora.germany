@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/re_item_moment_pic_0" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bl_corners_radius="@dimen/dimen_common_10" app:bl_solid_color="@color/color_F6F6F6"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_image" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_common_0dp" android:scaleType="centerCrop" app:layout_constraintDimensionRatio="h,1:1" app:layout_constraintTop_toTopOf="parent" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_video" android:layout_width="@dimen/dimen_common_30" android:layout_height="@dimen/dimen_common_30" android:src="@drawable/re_icon_play" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_delete" android:padding="@dimen/dimen_common_4" android:layout_width="@dimen/dimen_common_30" android:layout_height="@dimen/dimen_common_30" android:src="@drawable/re_ic_image_delete" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

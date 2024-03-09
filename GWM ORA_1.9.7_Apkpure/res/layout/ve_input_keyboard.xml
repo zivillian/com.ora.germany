@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/ve_input_keyboard_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:id="@id/gl_keyboard" android:background="#ffd1d2d9" android:paddingTop="4.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="3" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_1" android:tag="binding_1" android:text="1" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_2" android:tag="binding_2" android:text="2" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_3" android:tag="binding_3" android:text="3" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_4" android:tag="binding_4" android:text="4" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_5" android:tag="binding_5" android:text="5" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_6" android:tag="binding_6" android:text="6" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_7" android:tag="binding_7" android:text="7" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_8" android:tag="binding_8" android:text="8" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_9" android:tag="binding_9" android:text="9" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatTextView style="@style/ve_keyboard_button_grey" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/keyboard_0" android:tag="binding_10" android:text="0" style="@style/ve_keyboard_button" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/keyboard_back" android:tag="binding_11" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:src="@mipmap/ve_icon_back_dark1" style="@style/ve_keyboard_button_grey" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
